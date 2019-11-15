@@ -1,15 +1,27 @@
-## lineRangeChart
-Fork of https://github.com/rgabs/lineRangeChart, which is a great way to display evolutions, but which is too specific.
-This version can receive custom markers and scales.
+# lineRangeChart
+Fork of https://github.com/rgabs/lineRangeChart, which is a great way to display evolutions, but way too specific.<br />
+This version can receive custom markers, scales, and titles.<br />
+This plugin has been developed for my platform: https://www.probant-systems.fr
 
+## Example
 ![Example](/example/demo.png?raw=true "Example Code")
 
 ## Dependencies:
 * jQuery >1.11.3
 
 ## Usage:
-* Include all the files that are present in the `lib` folder.
+* In your page header, add the required files.
+```html
+<script src="./../lib/jQuery.min.js" type="text/javascript"></script>
+<script src="./../lib/lineRangeChart.js" type="text/javascript"></script>
+```
 
+* In your html, add the container area, typically a div.
+```html
+<div id="chartDemo"></div>
+```
+
+* Then add the javascript directives.
 ```javascript
 let options = {
     min: 0,     // Scale minimum, mandatory
