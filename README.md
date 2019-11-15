@@ -1,5 +1,5 @@
 ## lineRangeChart
-For of https://github.com/rgabs/lineRangeChart, which is a great way to display evolutions, but which is too specific.
+Fork of https://github.com/rgabs/lineRangeChart, which is a great way to display evolutions, but which is too specific.
 This version can receive custom markers and scales.
 
 ![Alt text](/demo.png?raw=true "Example Code")
