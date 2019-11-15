@@ -1,6 +1,6 @@
 ## lineRangeChart
-A custom made fully responsive range and line chart made as a jQuery plugin.
-#Screenshot
+For of https://github.com/rgabs/lineRangeChart, which is a great way to display evolutions, but which is too specific.
+This version can receive custom markers and scales.
 
 ![Alt text](/demo.png?raw=true "Example Code")
 
