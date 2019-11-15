@@ -2,7 +2,7 @@
 Fork of https://github.com/rgabs/lineRangeChart, which is a great way to display evolutions, but which is too specific.
 This version can receive custom markers and scales.
 
-![Example](/demo.png?raw=true "Example Code")
+![Example](/example/demo.png?raw=true "Example Code")
 
 ## Dependencies:
 * jQuery >1.11.3
