@@ -44,42 +44,16 @@
     border: 2px solid #4D4D4D;
     background-color: white;
 }
-.line-range-container input[type=radio]:checked + label:before {
-    content: "";
-    background: url("../images/radio_rec_inside.svg") no-repeat center;
-}
 .line-range-container .pull-left {
     float: left;
 }
 .line-range-container .pull-right {
     float: right;
 }
-.line-range-container .checkbox-form li:nth-child(1) input[type=checkbox] + label:before {
-    border: 2px solid #fc5c65;
-}
-.line-range-container .checkbox-form li:nth-child(2) input[type=checkbox] + label:before {
-    border: 2px solid #fd9644;
-}
-.line-range-container .checkbox-form li:nth-child(3) input[type=checkbox] + label:before {
-    border: 2px solid #fed330;
-}
-.line-range-container .checkbox-form li:nth-child(4) input[type=checkbox] + label:before {
-    border: 2px solid #26de81;
-}
-.line-range-container .checkbox-form li:nth-child(5) input[type=checkbox] + label:before {
-    border: 2px solid #45aaf2;
-}
-.line-range-container .checkbox-form li:nth-child(6) input[type=checkbox] + label:before {
-    border: 2px solid #4b7bec;
-}
-.line-range-container .checkbox-form li:nth-child(7) input[type=checkbox] + label:before {
-    border: 2px solid #a55eea;
-}
-.line-range-container .checkbox-form li:nth-child(8) input[type=checkbox] + label:before {
-    border: 2px solid #778ca3;
-}
-.line-range-container .checkbox-form li:nth-child(9) input[type=checkbox] + label:before {
-    border: 2px solid #4b6584;
+.line-range-container .checkbox-form li input[type=checkbox] + label:before {
+    border-width: 2px;
+    border-style: solid;
+    border-color: inherit;
 }
 .line-range-container .checkbox-container, .line-range-container .checkbox-form {
     overflow: auto;
@@ -211,32 +185,8 @@
     border-radius: 50%;
     z-index: 2;
 }
-.line-range-container .driver-row .filter2-chart .markers .marker:nth-child(1) {
+.line-range-container .driver-row .filter2-chart .markers .marker {
     border-color: #fc5c65;
-}
-.line-range-container .driver-row .filter2-chart .markers .marker:nth-child(2) {
-    border-color: #fd9644;
-}
-.line-range-container .driver-row .filter2-chart .markers .marker:nth-child(3) {
-    border-color: #fed330;
-}
-.line-range-container .driver-row .filter2-chart .markers .marker:nth-child(4) {
-    border-color: #26de81;
-}
-.line-range-container .driver-row .filter2-chart .markers .marker:nth-child(5) {
-    border-color: #45aaf2;
-}
-.line-range-container .driver-row .filter2-chart .markers .marker:nth-child(6) {
-    border-color: #4b7bec;
-}
-.line-range-container .driver-row .filter2-chart .markers .marker:nth-child(7) {
-    border-color: #a55eea;
-}
-.line-range-container .driver-row .filter2-chart .markers .marker:nth-child(8) {
-    border-color: #778ca3;
-}
-.line-range-container .driver-row .filter2-chart .markers .marker:nth-child(9) {
-    border-color: #4b6584;
 }
 .line-range-container .driver-row .arrow-bottom {
     background: url("../images/black-arrow.svg") no-repeat;
@@ -343,59 +293,11 @@
     -webkit-transform: scale(0);
     -webkit-animation: point 0.1s linear forwards;
 }
-.line-range-container .driver-row .description-wrapper .filter2-chart .markers .desc-marker:nth-child(1) {
+.line-range-container .driver-row .description-wrapper .filter2-chart .markers .desc-marker {
     background-color: #fc5c65;
 }
-.line-range-container .driver-row .description-wrapper .filter2-chart .markers .desc-marker:nth-child(1) .line {
+.line-range-container .driver-row .description-wrapper .filter2-chart .markers .desc-marker .line {
     border-bottom: 2px dotted #fc5c65;
-}
-.line-range-container .driver-row .description-wrapper .filter2-chart .markers .desc-marker:nth-child(2) {
-    background-color: #fd9644;
-}
-.line-range-container .driver-row .description-wrapper .filter2-chart .markers .desc-marker:nth-child(2) .line {
-    border-bottom: 2px dotted #fd9644;
-}
-.line-range-container .driver-row .description-wrapper .filter2-chart .markers .desc-marker:nth-child(3) {
-    background-color: #fed330;
-}
-.line-range-container .driver-row .description-wrapper .filter2-chart .markers .desc-marker:nth-child(3) .line {
-    border-bottom: 2px dotted #fed330;
-}
-.line-range-container .driver-row .description-wrapper .filter2-chart .markers .desc-marker:nth-child(4) {
-    background-color: #26de81;
-}
-.line-range-container .driver-row .description-wrapper .filter2-chart .markers .desc-marker:nth-child(4) .line {
-    border-bottom: 2px dotted #26de81;
-}
-.line-range-container .driver-row .description-wrapper .filter2-chart .markers .desc-marker:nth-child(5) {
-    background-color: #45aaf2;
-}
-.line-range-container .driver-row .description-wrapper .filter2-chart .markers .desc-marker:nth-child(5) .line {
-    border-bottom: 2px dotted #45aaf2;
-}
-.line-range-container .driver-row .description-wrapper .filter2-chart .markers .desc-marker:nth-child(6) {
-    background-color: #4b7bec;
-}
-.line-range-container .driver-row .description-wrapper .filter2-chart .markers .desc-marker:nth-child(6) .line {
-    border-bottom: 2px dotted #4b7bec;
-}
-.line-range-container .driver-row .description-wrapper .filter2-chart .markers .desc-marker:nth-child(7) {
-    background-color: #a55eea;
-}
-.line-range-container .driver-row .description-wrapper .filter2-chart .markers .desc-marker:nth-child(7) .line {
-    border-bottom: 2px dotted #a55eea;
-}
-.line-range-container .driver-row .description-wrapper .filter2-chart .markers .desc-marker:nth-child(8) {
-    background-color: #778ca3;
-}
-.line-range-container .driver-row .description-wrapper .filter2-chart .markers .desc-marker:nth-child(8) .line {
-    border-bottom: 2px dotted #778ca3;
-}
-.line-range-container .driver-row .description-wrapper .filter2-chart .markers .desc-marker:nth-child(9) {
-    background-color: #4b6584;
-}
-.line-range-container .driver-row .description-wrapper .filter2-chart .markers .desc-marker:nth-child(9) .line {
-    border-bottom: 2px dotted #4b6584;
 }
 @-moz-keyframes point {
     0% {
